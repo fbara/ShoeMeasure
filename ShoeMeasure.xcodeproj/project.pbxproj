@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		AD17069A26F91092003E44C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17069926F91092003E44C1 /* AppDelegate.swift */; };
 		AD17069C26F91092003E44C1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AD17069B26F91092003E44C1 /* art.scnassets */; };
-		AD17069E26F91092003E44C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17069D26F91092003E44C1 /* ViewController.swift */; };
 		AD1706A126F91092003E44C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD17069F26F91092003E44C1 /* Main.storyboard */; };
 		AD1706A326F91094003E44C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1706A226F91094003E44C1 /* Assets.xcassets */; };
 		AD1706A626F91094003E44C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1706A426F91094003E44C1 /* LaunchScreen.storyboard */; };
+		AD1706AD26F91121003E44C1 /* MeasureShoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1706AC26F91121003E44C1 /* MeasureShoeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD17069626F91092003E44C1 /* ShoeMeasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeMeasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD17069926F91092003E44C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD17069B26F91092003E44C1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		AD17069D26F91092003E44C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD1706A026F91092003E44C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD1706A226F91094003E44C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD1706A526F91094003E44C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1706AC26F91121003E44C1 /* MeasureShoeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureShoeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,9 @@
 		AD17069826F91092003E44C1 /* ShoeMeasure */ = {
 			isa = PBXGroup;
 			children = (
+				AD1706AC26F91121003E44C1 /* MeasureShoeViewController.swift */,
 				AD17069926F91092003E44C1 /* AppDelegate.swift */,
 				AD17069B26F91092003E44C1 /* art.scnassets */,
-				AD17069D26F91092003E44C1 /* ViewController.swift */,
 				AD17069F26F91092003E44C1 /* Main.storyboard */,
 				AD1706A226F91094003E44C1 /* Assets.xcassets */,
 				AD1706A426F91094003E44C1 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD17069E26F91092003E44C1 /* ViewController.swift in Sources */,
+				AD1706AD26F91121003E44C1 /* MeasureShoeViewController.swift in Sources */,
 				AD17069A26F91092003E44C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
